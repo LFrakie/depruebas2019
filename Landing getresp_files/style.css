@@ -1,0 +1,160 @@
+/*------------------------------------*\
+    TEMPLATES GLOBAL
+\*------------------------------------*/
+
+a {
+    color:#8b8479;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#8b8479;
+}
+
+div[data-editable="text"] ul,
+div[data-editable="text"] ol {
+    padding-left: 34px;
+}
+
+div[data-editable="text"] ol li,
+div[data-editable="text"] ul li {
+    margin: 6px 0;
+}
+
+/* [ Button container ] */
+div[data-editable="button"],
+div[data-editable="webinarButton"],
+div[data-editable="webform"] button,
+div[data-editable="webformNewButton"] button {
+    border: none;
+    background-color: #cc214f;
+    border-radius: 0;
+}
+
+/* [ Button text ] */
+div[data-editable="button"] button,
+div[data-editable="webinarButton"] button,
+div[data-editable="webform"] button,
+div[data-editable="webformNewButton"] button {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ebe2d7;
+}
+
+/* [ Button :hover ] */
+div[data-editable="button"].hover,
+div[data-editable="webinarButton"].hover,
+div[data-editable="webform"] div[data-type="submit"].hover button,
+[data-editable="webformNewButton"].hover button {
+    background-color: #e62e60;
+}
+
+div[data-editable="button"].hover button,
+div[data-editable="webinarButton"].hover button,
+div[data-editable="webform"] div[data-type="submit"].hover button,
+[data-editable="webformNewButton"].hover button {
+    background-color: #e62e60;
+    border-radius: 0;
+}
+
+/* [ Base text ] */
+div.text-content,
+div[data-editable="webform"] label,
+div[data-editable="webform"] input[type="text"],
+div[data-editable="webform"] textarea,
+div[data-editable="webform"] select,
+div[data-editable="webformNew"] select,
+div[data-editable="webformNew"] .directional,
+div[data-editable="webinarNew"] select,
+div[data-editable="webinarNew"] .directional{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #000;
+    line-height: 1.3;
+}
+
+/* [ Webform text ] */
+div[data-editable="webform"] label,
+div[data-editable="webform"] input[type="text"],
+div[data-editable="webform"] textarea,
+div[data-editable="webform"] select,
+div[data-editable="webformNew"] label,
+div[data-editable="webformNew"] select,
+div[data-editable="webformNew"] .directional,
+div[data-editable="webinarNew"] label,
+div[data-editable="webinarNew"] select,
+div[data-editable="webinarNew"] .directional {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #614e56;
+}
+
+/* [ Webform inputs ] */
+div[data-editable="webform"] input[type="text"],
+div[data-editable="webformNew"] [data-item-what="phone"] .fix-table-bug,
+div[data-editable="webinarNew"] [data-item-what="phone"] .fix-table-bug,
+div[data-editable="webform"] textarea,
+div[data-editable="webform"] select,
+div[data-editable="webformNew"] select,
+div[data-editable="webinarNew"] select{
+    background-color: #fff;
+    border: none;
+    color: #3b2530;
+}
+
+div[data-editable="webformNew"] [data-item-what="phone"] input[type="text"],
+div[data-editable="webinarNew"] [data-item-what="phone"] input[type="text"] {
+    border:none;
+}
+
+div[data-editable="webformNew"] .directional::after {
+    border-color: #614e56 transparent transparent transparent;
+}
+
+[data-editable="webformNewItem"].opened .directional::after {
+    border-color: transparent transparent #614e56 transparent;
+}
+
+.custom-form [data-editable="webformNewItem"],
+.custom-form [data-editable="webformNewButton"],
+.custom-form [data-editable="webformNewItem"] [data-editable-item="label"],
+.custom-form [data-editable="webformNewItem"] [data-editable-item="field"] {
+    height: 40px;
+}
+
+.custom-form [data-editable="webformNewItem"] {
+    width: 384px;
+}
+
+div[data-editable="webformNewButton"] button {
+    font-size: 22px;
+    font-weight: 400;
+    color: #ebe2d7;
+}
+
+[data-editable="webformNew"] [data-editable-item="field"] input,
+div[data-editable="webformNew"] [data-item-what="phone"] .fix-table-bug,
+[data-editable="webinarNew"] [data-editable-item="field"] input,
+div[data-editable="webinarNew"] [data-item-what="phone"] .fix-table-bug{
+    background-color: transparent;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1px solid #614e56;
+    color: #3b2530;
+    font-size: 16px;
+}
+
+[data-editable="webformNew"] [data-editable-item="label"] label,
+[data-editable="webinarNew"] [data-editable-item="label"] label {
+    padding-left: 16px;
+}
+
+[data-editable="webformNew"] input[type="text"],
+[data-editable="webinarNew"] input[type="text"] {
+    padding: 0 16px;
+}
+
