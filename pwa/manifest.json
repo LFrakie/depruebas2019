@@ -1,7 +1,7 @@
 {
   "name": "Progressive Web App",
   "short_name": "PWA",
-  "description": "Demo for progressive web app with push notifications, background sync etc.",
+  "description": "hanz Demo for progressive web app with push notifications, background sync etc.",
   "start_url": "./index.html?utm=homescreen",
   "display": "standalone",
   "orientation": "portrait",
