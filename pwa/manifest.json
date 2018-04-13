@@ -1,5 +1,5 @@
 {
-  "name": "hanz Progressive Web App",
+  "name": "Hanz Progressive Web App",
   "short_name": "PWA",
   "description": "hanz Demo for progressive web app with push notifications, background sync etc.",
   "start_url": "./index.html?utm=homescreen",
